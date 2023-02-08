@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slot-booking-org</title>
+  <link rel="stylesheet" href="bookingpage.css">
+</head>
+<body> 
+     <div class="container">
+      <div class="row">
+        <div class="col-3">
+
+        </div>
+        <div class="col-6">
+     
+    <DIV class="bookingform">
+
+      
+      <div class="formcredentials">
+   <form action="backend.php">  
+    <center><h1>Get Slot IN <span id="slotbookingname"> ADDAN PRADAN</span></h1></center>
+    <div>
+        <label for="Name">Name:</label>
+        <input type="text" name="NAME" id="Name">
+    </div>
+    <br>
+    <div>
+      <label for="email">Email :</label>
+       <input type="email" name="EMAIL" id="email" placeholder="example123@gmail.com">
+    </div>
+    <br>
+    <div>
+        <label for="selectcollege">College:</label>
+        <select name="COLLEGE"  id="selectcollege">
+          <option value="KMIT" >KMIT </option>
+          <option value="KMEC" selected> KMEC DEGREE</option> 
+        </select> 
+      </div>
+
+    <div>
+        <label for="date" >Date: </label>
+       <input type="date" name="DATE" id="date">
+       <br>
+   </div>
+   <br>
+
+   <div>
+      <label for="slot-timings">Slot timings :</label>
+      <select name="SLOTTIMINGS"  id="slot-timings">
+        <option value="9:00 AM-12:00 PM" >9:00 PM- 12:00 PM </option>
+        <option value="2:00 PM -5:00 PM" selected> 2:00 PM -5:00 PM</option> 
+      </select> 
+    </div>
+    <BR>
+    
+    <input type="submit" value="Submit Now" >
+  </div>
+
+   </form>
+  </DIV>
+        </div>
+        <div class="col-3">
+
+        </div>
+      </div >
+
+     </div>
+   <Script> 
+    let submitBtn = document.querySelector("input[type='submit']");
+
+submitBtn.addEventListener("click", function(){
+    submitBtn.value = "Submitted";
+    submitBtn.style.backgroundColor = "orange";
+});
+
+</Script>
+</body>
+<footer>
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <p>
+                  123 Main St.<br>
+                  Suite 200<br>
+                  Anytown, USA 00000<br>
+                  <strong>Phone:</strong> 555-555-5555<br>
+                  <strong>Email:</strong> info@yourcompany.com
+              </p>
+          </div>
+          <div class="col-md-4">
+              <h4>About Us</h4>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+              </p>
+          </div>
+          <div class="col-md-4">
+              <h4>Stay Connected</h4>
+              <ul class="social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</footer>
+
+</html>

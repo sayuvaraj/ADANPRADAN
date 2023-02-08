@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .navbar {
+  position: relative;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+
+.nav-links {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+}
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="hamburger" onclick="toggleNav()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="nav-links" id="nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      
+      <script>
+        function toggleNav() {
+  var nav = document.getElementById("nav");
+  if (nav.style.display === "none") {
+    nav.style.display = "flex";
+    nav.style.flexDirection="column";
+    nav.style.justifyContent="space-between";
+    nav.style.border="1px solid green";
+    nav.style
+    nav
+  } else {
+    nav.style.display = "none";
+  }
+}
+
+      </script>
+      
+</body>
+</html>

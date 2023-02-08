@@ -1,0 +1,110 @@
+.navbar-nav>.nav-item > a {
+color:rgb(242, 255, 255);
+font-weight: 400px;
+}
+.navbar-nav>.nav-item>.nav-link{
+    padding-left:9.0rem; 
+} 
+.navbar-brand
+{
+    color:rgb(247, 255, 255);
+}
+    .bt{
+        margin-top:2%;
+      margin-left:52px;
+        width: 110px;
+        border-radius:6px;
+        height:fit-content;
+        background-color:rgb(29, 52, 75);
+    }
+    .contentbox{
+        padding:10px 85px ;
+        margin-left: 393px;
+        margin-top:30px;
+        width:400px;
+        height:auto;
+        border-style:thick;
+        border-width: 5px;
+        background-color: rgba(216, 241, 250, 0.852);
+       align-items: center;
+    }
+    .smallbox1{
+        padding:0.5rem;
+        margin-bottom:6px;
+        margin-left:4px;
+    }
+    .smallbox2{
+        padding:0.5rem;
+        margin-bottom:1px;
+        margin-left:4px;
+        
+    }
+
+        #textfont{
+        font-weight:bolder;
+        font-size:19px;
+    padding-left:5rem
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    #textfont1{
+        font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .row > .col>{
+        width:100px;
+        height:auto;
+background-color:aquamarine;
+    }
+    .cl{
+        padding:20px;
+        width:250px;
+        height:202px;
+        background-color: rgb(87, 69, 42);
+        margin-left:20px;
+    }
+    .rowl{
+        background-color: black;
+    }
+    .text1{
+        color:rgb(57, 165, 129);
+        text-align:center;
+        font-size: larger;
+    }
+    .collegelogos{
+        background-color: rgb(21, 91, 91);
+    }
+    .backimg{
+        background-image:url('https://gbl-sc9u2-prd-cdn.azureedge.net/-/media/aboutikea/ikeatoday/contentassets/ikea_today_play_workshop_craft2500x1667/IKEA_today_play_workshop_craft2500x1667-figure-image-desktop')}
+    .n{
+        background-color:rgb(0, 0, 0);
+    }
+    .aadanpradhanheading{
+   font-style:italic;
+   border:2px;
+   border-color:black;
+   background-color:rgb(0, 0, 0);
+   color:rgb(199, 102, 23);
+   font-weight:800;
+   margin-bottom:0.2rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .subheadingquickread{
+        display:inline-flex;
+    }
+    #textfont1{
+    font-size:78%;
+    font-weight:500;
+    text-decoration: underline;
+    display:inline;
+    padding-inline-start: 2.0rem;
+    }
+    #facebooklog{
+        margin-bottom:3px;
+    }
+    #facebookid:hover{
+        color:rgb(185, 13, 13);   
+     }
+     .smallbox1:hover,.smallbox2:hover{
+        color:rgb(7, 83, 159);
+     }
+    

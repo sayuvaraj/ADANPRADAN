@@ -1,0 +1,100 @@
+.text{
+    text-align: center;
+    color:rgb(29, 23, 23)
+}
+.navbar{
+    background-color: rgb(75, 196, 93);
+}
+#search2{
+    margin-top: 50px;
+}
+form.example{
+    position:relative;
+}
+.mysearch{
+    margin: 50px 360px;
+    padding:60px;
+    align-content: left;
+}
+#subtext{
+    font-weight:700;
+    color: rgb(51, 197, 104);
+    font-size:28px;
+}
+
+.pd{
+    
+    padding:40px;
+}
+.box{
+    padding:15px;
+    
+    
+    color:azure;
+}
+.containerstep{
+    padding:0.8em;
+    margin:1.2em;
+}
+.stepno1{
+   border-radius:2px;
+   background-color:rgb(216, 151, 10);
+}
+.stepno2{
+    background-color:rgb(13, 103, 82);
+}
+.stepno3{
+    background-color:rgb(13, 103, 82);
+    background-color:rgb(6, 61, 91);
+}
+.stepno4{
+    background-color:rgb(116, 39, 17);
+}
+.stepmatter{
+    color:rgb(6, 5, 5);
+  
+    padding:0.6em;
+    border-radius:8px;
+}
+.ph{
+    background-color:rgb(216, 151, 10);
+    background-color:rgb(6, 61, 91);
+    background-color:rgb(116, 39, 17);
+    background-color:rgb(116, 39, 17);
+}
+.mainheadingpradan{
+    padding-left:21em;
+    padding-top:2.2em;
+}
+.aadanpradhanheading{
+    font-style:italic;
+    border:2px;
+    border-color:black;
+    background-color:rgb(0, 0, 0);
+    color:rgb(199, 102, 23);
+    font-weight:800;
+    margin-bottom:0.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:rgb(218, 89, 24);
+    padding-left:7.0rem;
+    background-color:whitesmoke
+}
+#stepstoguide2{
+    display:flex;
+}
+#guide,#stepsofguide-subtitle{
+    color:rgb(223, 107, 13);
+}
+.stepsofguide-matter{
+    background-color:rgb(26, 56, 26);
+    color:white;
+    padding:4rem;
+    margin-bottom:5.5rem;
+}
+.stepsofguide-cardmatter{
+    padding:1.5rem;
+}
