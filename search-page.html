@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slot Booking</title>
+    <style>
+        /* CSS for styling the table */
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: 0 auto;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #dddddd;
+        }
+        /* CSS for styling the button */
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        /* CSS for styling the booked slots */
+        .booked {
+            background-color: #f44336;
+            color: white;
+        }
+        #beee,#dsa{
+           color:rgb(206, 94, 8);
+        }
+        .beeestyle,.dsastyle{
+            background-color:rgb(241, 235, 235);
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="dsastyle"><h1 align="center">Colleges Offerings <span id="dsa">DSA</span></h1></div> 
+    <table align="center">
+        <tr>
+            <th>College ID</th>
+            <th>College Name</th>
+            <th>Course</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th></th>
+            
+        </tr>
+        <tr>
+            <td>1000</td>
+            <td>KMIT</td>
+            <td>DSA</td>
+            <td>Hyderabad</td>
+            <td>Available</td>
+            <td><button id="book-1">Book Now</button></td>
+        </tr>
+        <tr>
+            <td>1004</td>
+            <td>KMEC</td>
+            <td>ADE</td>
+            <td>WARANGAL</td>
+            <td>Available</td>
+            <td><button id="book-2">Book Now</button></td>
+        </tr>
+        <tr>
+            <td>1008</td>
+            <td>VJIT</td>
+            <td>ADE</td>
+            <td>GADWAL</td>
+            <td>Available</td>
+            <td><button id="book-3">Book Now</button></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <div class="beeestyle"> <h1 align="center"> Colleges Offerings <span id="beee"> BEEE </span></h1></div> 
+    <table align="center">
+        <tr>
+            <th>College ID</th>
+            <th>College Name</th>
+            <th>Course</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th></th>
+            
+        </tr>
+        <tr>
+            <td>2000</td>
+            <td>KMIT</td>
+            <td>BEEE</td>
+             <td>HYDERABAD</td>
+             <td>Available</td>
+            <td><button id="book-1">Book Now</button></td>
+        </tr>
+        <tr>
+            <td>2004</td>
+            <td>KMIT</td>
+            <td>BEEE</td>
+             <td>HYDERABAD</td>
+             <td>Available</td>
+            <td><button id="book-2">Book Now</button></td>
+        </tr>
+        <tr>
+            <td>2008</td>
+            <td>KMIT</td>
+            <td>BEEE</td>
+             <td>HYDERABAD</td>
+             <td>Available</td>
+            <td><button id="book-3">Book Now</button></td>
+        </tr>
+        <tr>
+            <td>2012</td>
+            <td>KMIT</td>
+            <td>BEEE</td>
+             <td>HYDERABAD</td>
+             <td>Available</td>
+            <td><button id="book-3">Book Now</button></td>
+        </tr>
+    </table>
+
+    <script>
+        // JavaScript for handling bookings
+        var buttons = document.querySelectorAll("button");
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function(event) {
+                /*var slotId = event.target.id.split("-")[1];
+                //AJAX call to book the slot
+                // On success update the status and disable the button
+                event.target.innerHTML = "Booked";
+                event.target.classList.add("booked");
+                event.target.disabled = true;*/
+                window.location.href="college-description.html";
+            });
+        }
+    </script>
+</body>
+</html>
