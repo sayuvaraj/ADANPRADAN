@@ -1,0 +1,134 @@
+.mainloginbox{
+
+    background-color: rgba(216, 241, 250, 0.852);
+    margin:2rem 4rem;
+}
+.n{
+    background-color:rgb(0, 0, 0);
+}
+.navbar-nav>.nav-item > a {
+    color:rgb(242, 255, 255);
+    font-weight: 400px;
+ }
+    .navbar-nav>.nav-item>.nav-link{
+        padding-left:9.0rem; 
+    } 
+.navbar-brand
+ {
+    color:rgb(247, 255, 255);
+}
+.aadanpradhanheading{
+    font-style:italic;
+    border:2px;
+    border-color:black;
+    background-color:rgb(0, 0, 0);
+    color:rgb(199, 102, 23);
+    font-weight:800;
+    margin-bottom:0.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+ .smallbox1:hover,.smallbox2:hover{
+        color:rgb(7, 83, 159);
+  }
+  .bt{
+    margin-top:2%;
+  margin-left:52px;
+    width: 110px;
+    border-radius:6px;
+    border-style:double;
+    border-color:black;
+    height:fit-content;
+    background-color:rgb(45, 147, 236);
+}
+#textfont1{
+    font-size:78%;
+    font-weight:500;
+    text-decoration: underline;
+    display:inline;
+    padding-inline-start: 2.0rem;
+    }
+.loginbox{
+align-content: center;
+margin-left:6.2em;
+}
+.sometext{
+    display:inline;
+}
+.columnsize1{
+    border-color:black;
+    margin:0.2rem;
+}
+.columnsize2{
+    background-color:white;
+
+}
+.whyaadanpradhan{
+    background-color:rgba(9, 37, 9, 0.982);
+    color:white;
+    padding:2.0rem;
+    margin:0.4em
+}
+#caption{
+    text-align:center;
+    color:rgb(47, 46, 46)
+}
+.welcome{
+    padding:0.3rem;
+}
+.smallbox1,.smallbox2{
+    margin:1em;
+}
+#textfont{
+   
+    padding-left:0.4rem;
+    margin-top:3.5rem;
+}
+.pradhan{
+    padding-top:2rem;
+    font-size:20px;
+    font-weight:600;
+    color:rgb(45, 139, 144);
+}
+.firstbox1{
+    margin-top:2rem;
+}
+.whyadan{
+    background-color:rgba(9, 37, 9, 0.982);
+    padding:4em; 
+    color:white;
+}
+.whyadanppp{
+    margin-top:3em;
+}
+.quickreadsession{
+    margin-top:3.5em;
+}
+.quick{
+    background-color: rgb(232, 93, 43);
+}
+.QUICKREAD{
+color:white;
+padding-top:4em;
+}
+.aadanimagepad{
+    padding-left:58em;
+    padding-bottom:16px;
+}
+.mainheadingpradan{
+    padding-left:21em;
+    padding-top:2.2em;
+}
+.statusbtn{
+    border-radius:90px;
+    background-color:rgb(33, 45, 185);
+     color:white;
+     padding:4px;
+   border-width: 2px;
+}
+#differentcolleges{
+    margin:2em;
+    }
+.collegeone,.collegesecond,.collegethird,.collegefour{
+    width:28rem;
+    height:20rem;
+}
